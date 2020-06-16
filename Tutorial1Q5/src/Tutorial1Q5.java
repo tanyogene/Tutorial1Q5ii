@@ -3,7 +3,13 @@ import java.util.Scanner;
 public class Tutorial1Q5 {
     
     public static void main(String[] args) {
-        int minNum, maxNum, sum=0;
+       
+        showOddNumber();
+        
+    }
+    
+    static void showOddNumber(){ 
+       int minNum, maxNum, sum=0;
         
         
         Scanner scan = new Scanner(System.in);
@@ -24,7 +30,7 @@ public class Tutorial1Q5 {
         }
         System.out.println("Sum of all this odd number is " + sum);
         
-        
-    }
-    
+      
+      }
+     
 }
