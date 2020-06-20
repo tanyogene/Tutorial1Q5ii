@@ -8,9 +8,9 @@ public class Tutorial1Q5 {
         
     }
     
-    static void showOddNumber(){ 
+    public static void showOddNumber(){ 
        int minNum, maxNum, sum=0;
-        
+      
         
         Scanner scan = new Scanner(System.in);
        
